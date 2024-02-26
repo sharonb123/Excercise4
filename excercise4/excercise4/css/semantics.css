@@ -1,0 +1,20 @@
+header{background-color: rgb(26, 116, 168);
+font-weight: bold;}
+
+article{background-color: rgb(72, 110, 15);
+height: 50px;
+width: 700px;
+font-weight: bold;
+display: inline-block;
+margin-inline-end: -4px;}
+
+footer{background-color: red;
+height: 25px;
+font-weight: bold;}
+
+aside{background-color: blueviolet;
+font-weight: bold;
+height: 50px;
+width: 700px;
+display: inline-block;
+margin-bottom: 25px;}

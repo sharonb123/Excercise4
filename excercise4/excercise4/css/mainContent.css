@@ -1,0 +1,45 @@
+*{margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;}
+
+.banner{color: whitesmoke;
+font-style: italic;
+border: red;
+text-align: center;}
+
+.banner .f1{background-color: sienna;}
+
+.banner .l1{border: 1px solid blue;}
+
+.banner .f1 .l1 img{width: 120px;
+height: 90px;
+padding-top: 5px;
+padding-bottom: 10px;
+display: block;}
+
+.articles{display: flex;
+margin: auto;
+border: 2px solid greenyellow;}
+
+.programs, .content, aside{width: 33%;
+padding: 15px;
+font-family: 'Courier New', Courier, monospace;}
+
+.content{background-color: silver;
+text-align: justify;}
+
+ol li a{text-decoration: none;
+color: rgb(55, 199, 209);}
+
+aside .times time{margin-bottom: 50px;}
+
+aside legend{background-color: silver;}
+
+.f2{padding-bottom: 20px;
+margin-bottom: 10px;}
+
+.articles aside .times time{padding-top: 20px;}
+
+aside .f2{margin-bottom: 25px;}
+
+h2{margin-bottom: 25px;}

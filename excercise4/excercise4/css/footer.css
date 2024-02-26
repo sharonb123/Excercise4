@@ -1,0 +1,40 @@
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+
+header{border: 1px solid black;
+background-color: black;
+height: 90px;
+width: auto;
+position: sticky;
+top: 0;}
+
+.navigation{text-align: center;
+word-spacing: 400px;
+margin-top: 20px;}
+
+.navigation a{color: white;
+font-size: 30px;}
+
+main{height: 100vh;
+width: auto;
+background-image: url("../image/mountain.jpg");
+background-repeat: no-repeat;
+background-size: cover;}
+
+footer{position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 150px;
+background-color: black;
+display: flex;
+color: white;
+justify-content: space-between;
+padding-top: 30px;}
+
+.icons .img{height: 50px;
+width: 50px;}
+
+
+

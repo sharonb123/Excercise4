@@ -1,0 +1,32 @@
+.container{margin: auto;
+background-color:rgb(113, 150, 58) ;
+width: 600px;
+padding: 15px;}
+
+h2{color: darkgray;
+font-family: monospace;}
+
+.details, .delivery, .card{border: 1px solid white;
+border-radius: 3px;
+background-color: transparent;
+padding: 5px;}
+
+#button{background-color:darkcyan;
+border: none;
+border-radius: 15px;
+padding: 30px;
+font-size: large;
+margin: 10px;
+padding: 10px;
+font-family:sans-serif;}
+
+input{display:flex;
+margin-left: 50px;
+font-style: italic;
+justify-items: flex-start;}
+
+label{font-family: sans-serif;
+font-weight: bold;
+font-size: small;}
+
+#address{height: 100px;}

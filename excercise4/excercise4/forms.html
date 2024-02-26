@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/forms.css">
+</head>
+<body>
+    <h2> Reg Form</h2>
+    <form action="#">
+        <fieldset class="fieldset1">
+        <legend>Student Registration</legend>
+        <input type="text "placeholder="firstname" name="fname" id="fname">
+        <input type="text "placeholder="surname" name="sname" id="sname">
+        <br>
+        <br>
+        <input type="email "placeholder="email" name="email" id="email">
+        <input type="tel "placeholder="telephone" name="telephone" id="telephone">
+        <br>
+        <br>
+        <input type="password "placeholder=" enter password" name="pword" id="pword">
+        <input type="password "placeholder=" re-enter password" name="pword" id="pword2">
+        <br>
+        <br>
+
+        <div>
+            <input type="checkbox" value="internship" name="internship">
+            <label for="internship">Internship</label>
+            <input type="checkbox" value="Thesis" name="Thesis">
+            <label for="Thesis">Thesis</label>
+        </div>
+
+        <br>
+
+        <label for="date"> Enter date</label>
+        <input type="date" name="date">
+
+        <br>
+        <br>
+        <label for="slide">Slide to postion[1-5]</label>
+        <input type="range" min="1"max="5" name="slide">
+        <br>
+        <br>    
+
+       <label for="file"> choose image(s)</label>
+       <input type="file" name="upload file" accept="image/* multiple">
+       <br><br>
+       <fieldset>
+           <legend> Enter gender</legend>
+           <input type="radio"name="gender" value="male" id="male" checked>male <br>
+           <input type="radio"name="gender" value="female" id="female">male
+       </fieldset>
+       <br><br>
+
+       <label for="time"> select time: </label>
+       <input type="time" name="time" >
+       <br><br>
+       <input type="submit" value="submit">
+       <br><br>
+
+   </fieldset>
+    </form>
+    
+</body>
+</html>

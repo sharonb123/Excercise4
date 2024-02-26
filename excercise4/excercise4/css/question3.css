@@ -1,0 +1,33 @@
+body{border: solid 5px black;
+width: 800px;
+height: 350px;
+position: absolute;}
+
+.a1{display: inline-block;
+height: 275px;
+width: 150px;
+background-color: pink;
+padding-bottom: 20px;
+margin-inline-start: 10px;
+position: relative;
+top: 6px;
+left: 355px;}
+
+.a2{display: inline-block;
+width: 275px;
+height: 175px;
+position: relative;
+top: -120px;
+background-color: gray;
+color: blue;
+left: 350px;}
+
+section{ border: 5px solid black;
+display: inline-block;
+margin-inline-start: 10px;
+height: 30px;
+width: 350px;}
+
+p{display: inline-block;
+position: relative; 
+top:-10px;}

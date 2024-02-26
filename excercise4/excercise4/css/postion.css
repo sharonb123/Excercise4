@@ -1,0 +1,20 @@
+.box{margin: 30px;
+padding: 20px;
+border: 2px solid blue;
+width: 400px;
+height: 200px;}
+
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+
+/*.container{border: 2px solid red;
+height: 100vh;
+background-image: url('./image/naruto.jpg');
+background-repeat: no-repeat;
+background: linear-gradient(red, yellow,green);
+background-attachment: fixed;
+background-position: 200px 200px;}*/
+
+.container{background: skyblue url(naruto.jpg) no-repeat fixed 200px 200px;
+height: 100vh;}
